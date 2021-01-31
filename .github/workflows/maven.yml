@@ -1,9 +1,9 @@
-name: Java CI # как называется Workflow
+name: Java CI with maven
 
 on:
   push:
     branches: [ master ]
-  pull request:
+  pull_request:
     branches: [ master ]
 
 jobs: # какие задачи делаем
